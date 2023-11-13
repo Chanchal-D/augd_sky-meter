@@ -5,7 +5,7 @@ Sky-meter is a synthetic endpoint checker. You can deploy this on your infra run
 Currenly I have added Database support. The endpoints and HTTP output are now being saved in the Database. We also have a sentry integration to catch the runtime errors.
  Development is in progress
  ### [Visit the Website](https://sky-meter.skywalks.in)   
-### [Visit pkg.go.dev](https://pkg.go.dev/github.com/sooraj-sky/sky-meter)
+### 
 
  ## Alerting
  I have integrated SMTP and Opsgenie, more integrations are in the pipeline
@@ -21,7 +21,6 @@ Postgres: 15.0
 
 We highly recommend running the app as a docker container. 
 See Docker Hub Image 
-https://hub.docker.com/r/soorajsky/sky-meter
 
 ## Environment variables
 | Variable       | Type    | Example         |
