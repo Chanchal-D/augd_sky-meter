@@ -1,5 +1,4 @@
 # augd_sky-meter
-Sky-meter is an endpoint checker. It can be deployed as a container, it gives you the ability to monitor your internal-cluster APIs
 
 Sky-meter is a synthetic endpoint checker. You can deploy this on your infra run checks from your infra and set alerts. Here we are using the go httptrace library.  
 Currenly I have added Database support. The endpoints and HTTP output are now being saved in the Database. We also have a sentry integration to catch the runtime errors.
